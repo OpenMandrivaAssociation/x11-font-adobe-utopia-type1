@@ -1,5 +1,5 @@
 Name: x11-font-adobe-utopia-type1
-Version: 1.0.2
+Version: 1.0.4
 Release: %mkrel 1
 Summary: Xorg X11 font adobe-utopia-type1
 Group: Development/X11
@@ -10,7 +10,7 @@ License: Adobe Utopia
 BuildRoot: %{_tmppath}/%{name}-root
 BuildArch: noarch
 BuildRequires: fontconfig
-BuildRequires: x11-font-util >= 1.0.0
+BuildRequires: x11-font-util >= 1.2
 BuildRequires: x11-util-macros >= 1.0.1
 Conflicts: xorg-x11 <= 6.9.0
 Requires(post): mkfontdir
