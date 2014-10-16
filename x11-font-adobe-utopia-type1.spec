@@ -1,6 +1,6 @@
 Name: x11-font-adobe-utopia-type1
 Version: 1.0.4
-Release: %mkrel 1
+Release: 2
 Summary: Xorg X11 font adobe-utopia-type1
 Group: Development/X11
 URL: http://xorg.freedesktop.org
