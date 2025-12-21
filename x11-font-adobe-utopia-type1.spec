@@ -9,6 +9,11 @@ Source: http://xorg.freedesktop.org/releases/individual/font/font-adobe-utopia-t
 License: Adobe Utopia
 BuildRoot: %{_tmppath}/%{name}-root
 BuildArch: noarch
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: fontconfig
 BuildRequires: x11-font-util >= 1.2
 BuildRequires: x11-util-macros >= 1.0.1
